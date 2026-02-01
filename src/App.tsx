@@ -1,10 +1,7 @@
+import { Header } from "./components/Header/Index";
 
 function App() {
-  return (
-    <div>
-lol
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;

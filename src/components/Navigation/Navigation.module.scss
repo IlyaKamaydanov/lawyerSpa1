@@ -1,0 +1,22 @@
+.links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: var(--font);
+  border-bottom: 1px solid transparent;
+  transition:
+    color 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #4f8ff0;
+  border-bottom: 1px solid #4f8ff0;
+}

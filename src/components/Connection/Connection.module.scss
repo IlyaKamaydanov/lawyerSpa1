@@ -1,0 +1,25 @@
+.container {
+  font-family: var(--font);
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+.connect {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.img {
+  width: 19px;
+  height: 19px;
+}

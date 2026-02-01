@@ -1,0 +1,31 @@
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0 300px;
+}
+
+.mini {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.head {
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #4f8ff0;
+}
+
+.text {
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}

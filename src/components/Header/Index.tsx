@@ -7,10 +7,10 @@ const Header = () => {
     <div className={s.container}>
       <Connection />
       <div className={s.mini}>
-        <div className={s.title}>
+        <a className={s.title} href="#">
           <h2 className={s.head}>Правозащитник</h2>
           <p className={s.text}>юридическая компания</p>
-        </div>
+        </a>
 
         <Navigation />
       </div>

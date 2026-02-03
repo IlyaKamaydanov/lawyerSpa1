@@ -1,3 +1,4 @@
+import { Button } from "../Button/Index";
 import s from "./Connection.module.scss";
 
 const CONNECT = [
@@ -26,7 +27,9 @@ const Connection = () => {
           </a>
         ))}
       </div>
-      <div className={s.button}></div>
+      <div className={s.button}>
+        <Button variant="noBack" children="Заказать звонок" />
+      </div>
     </div>
   );
 };

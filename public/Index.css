@@ -1,5 +1,6 @@
 :root {
   --font: "Nunito", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {

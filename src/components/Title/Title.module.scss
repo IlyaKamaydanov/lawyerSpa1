@@ -1,0 +1,41 @@
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 150px 300px;
+  @include flexColumn;
+  text-align: center;
+  gap: 48px;
+}
+
+.title {
+  @include flexColumn;
+  gap: 10px;
+  font-family: var(--font);
+}
+
+.head {
+  @include flexColumn;
+  font-weight: 600;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #4f8ff0;
+}
+
+.headUp {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  width: 1090px;
+  margin: 0 auto;
+}

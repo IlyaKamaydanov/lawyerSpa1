@@ -3,6 +3,9 @@
   height: 52px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0 300px;
 }
 
 .link {
@@ -11,6 +14,15 @@
   font-size: 14px;
   display: flex;
   gap: 8px;
+  border-bottom: 1px solid transparent;
+  transition:
+    color 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #4f8ff0;
+  border-bottom: 1px solid #4f8ff0;
 }
 
 .connect {

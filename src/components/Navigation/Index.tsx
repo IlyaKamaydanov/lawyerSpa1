@@ -1,7 +1,7 @@
 import s from "./Navigation.module.scss";
 
 const LINKS = [
-  { title: "Услуги", link: "#" },
+  { title: "Услуги", link: "#services" },
   { title: "О компании", link: "#" },
   { title: "Наши юристы", link: "#" },
   { title: "Отзывы", link: "#" },

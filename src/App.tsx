@@ -1,4 +1,5 @@
 import s from "./App.module.scss";
+import { AboutCompany } from "./components/AboutCompany/Index";
 import { Header } from "./components/Header/Index";
 import { Services } from "./components/Services/Index";
 import { Title } from "./components/Title/Index";
@@ -11,6 +12,7 @@ function App() {
         <Title />
       </div>
       <Services />
+      <AboutCompany />
     </div>
   );
 }

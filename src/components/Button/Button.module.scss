@@ -22,8 +22,7 @@
   text-transform: uppercase;
   background-color: #4f8ff0;
   color: white;
-  width: 158px;
-  height: 49px;
+  padding: 16px 24px;
   font-family: var(--font);
   font-weight: 900;
   font-size: 14px;
@@ -39,5 +38,26 @@
   background-color: white;
   color: #4f8ff0;
   border: 3px solid #4f8ff0;
+  cursor: pointer;
+}
+
+.gray {
+  background-color: #e6e6e6;
+  text-transform: uppercase;
+  color: black;
+  padding: 16px 24px;
+  font-family: var(--font);
+  font-weight: 900;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  transition:
+    background-color 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+}
+
+.gray:hover {
+  border: 3px solid #e6e6e6;
+  background-color: white;
   cursor: pointer;
 }

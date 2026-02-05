@@ -1,0 +1,57 @@
+.img {
+  width: 312px;
+  height: 320px;
+}
+
+.lawyer {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  text-align: center;
+}
+
+.lawyer:hover {
+  cursor: pointer;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 24px 0 10px 0;
+}
+
+.activity {
+  font-weight: 300;
+  font-size: 14px;
+  padding-bottom: 24px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.after {
+  box-sizing: border-box;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.after {
+  opacity: 0;
+}
+
+@keyframes After {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.after:hover {
+  animation: After 3s forwards;
+}

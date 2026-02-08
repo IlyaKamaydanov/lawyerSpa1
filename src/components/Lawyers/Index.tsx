@@ -53,13 +53,14 @@ const Lawyers = () => {
           </p>
         </div>
         <div className={s.lawyers}>
-          {LAWYERS.map((item: LawyersType) => (
+          {LAWYERS.map((item: LawyersType, index) => (
             <Lawyer
               img={item.img}
               name={item.name}
               activity={item.activity}
               text={item.text}
               experience={item.experience}
+              key={index}
             />
           ))}
         </div>

@@ -125,7 +125,6 @@ const Services = () => {
 
   const show = () => {
     setShowAll(!showAll);
-    console.log(showAll);
   };
 
   return (

@@ -3,7 +3,7 @@ import s from "./Button.module.scss";
 interface ButtonType {
   variant: "blue" | "gray" | "noBack";
   children: string;
-  click?: () => void;
+  click?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   href?: string;
 }
 

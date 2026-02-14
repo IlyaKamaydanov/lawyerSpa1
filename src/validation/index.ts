@@ -18,4 +18,17 @@ const ReviewFormSchema = yup.object({
     .typeError("Напишите отзыв"),
 });
 
-export { ReviewFormSchema };
+const CallFormSchema = yup.object({
+  name: yup
+    .string()
+    .required("Введите имя")
+    .min(2, "Минимум 2 символа")
+    .typeError("Введите имя "),
+  phone: yup
+    .string()
+    .required("Введите номер")
+    .min(11, "Минимум 11 цифр, только цифры")
+    .max(11, "Максимум 11 цифр")
+    .typeError("Введите номер "),
+});
+export { ReviewFormSchema, CallFormSchema };

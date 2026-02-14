@@ -1,5 +1,8 @@
+import { useState } from "react";
 import { Button } from "../Button/Index";
 import s from "./Connection.module.scss";
+import { createPortal } from "react-dom";
+import { ModalCall } from "../ModalCall/Index";
 
 const CONNECT = [
   {
@@ -17,6 +20,12 @@ const CONNECT = [
 ];
 
 const Connection = () => {
+  const [callForm, setCallForm] = useState(false);
+
+  const ShowForm = () => {
+    setCallForm(!callForm);
+  };
+
   return (
     <div className={s.container}>
       <div className={s.connect}>
@@ -28,8 +37,14 @@ const Connection = () => {
         ))}
       </div>
       <div className={s.button}>
-        <Button variant="noBack" children="Заказать звонок" />
+        <Button variant="noBack" children="Заказать звонок" click={ShowForm} />
       </div>
+      {createPortal(
+        <div className={callForm ? s.show : s.none}>
+          <ModalCall show={ShowForm} />
+        </div>,
+        document.body
+      )}
     </div>
   );
 };

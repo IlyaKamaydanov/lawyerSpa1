@@ -5,6 +5,7 @@ import { Lawyers } from "./components/Lawyers/Index";
 import { Reviews } from "./components/Reviews/Index";
 import { Services } from "./components/Services/Index";
 import { Title } from "./components/Title/Index";
+import { Useful } from "./components/Useful/Index";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutCompany />
       <Lawyers />
       <Reviews />
+      <Useful />
     </div>
   );
 }

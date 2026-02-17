@@ -1,0 +1,144 @@
+.container {
+  background-color: #222;
+  font-family: var(--font);
+  padding: 80px 300px;
+}
+
+.title {
+  color: #4f8ff0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.span {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+  margin: auto 0;
+}
+
+.logo {
+  padding: 12px;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.logo:hover {
+  border: 1px solid #4f8ff0;
+}
+
+.head {
+  display: flex;
+  gap: 162px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  padding-bottom: 48px;
+}
+
+.connection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 48px;
+}
+
+.connect {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 24px;
+}
+
+.conTitle {
+  margin: 0;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footLink {
+  font-family: var(--font);
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.footLink:hover {
+  color: #4f8ff0;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 48px;
+}
+
+.linkLink {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.linkLink:hover {
+  color: #4f8ff0;
+}
+
+.lawyer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 48px;
+}
+
+.lawyerHead {
+  display: flex;
+  gap: 24px;
+}
+
+.headText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.specialty {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.lawyerText {
+  width: 424px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}

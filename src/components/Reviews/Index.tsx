@@ -48,7 +48,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className={s.background}>
+    <div className={s.background} id="reviews">
       <div className={s.container}>
         <h3 className={s.title}>Что о нас говорят клиенты</h3>
         <div className={s.reviews}>

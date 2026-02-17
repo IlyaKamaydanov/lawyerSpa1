@@ -2,11 +2,11 @@ import s from "./Navigation.module.scss";
 
 const LINKS = [
   { title: "Услуги", link: "#services" },
-  { title: "О компании", link: "#" },
-  { title: "Наши юристы", link: "#" },
-  { title: "Отзывы", link: "#" },
-  { title: "Новости", link: "#" },
-  { title: "Контакты", link: "#" },
+  { title: "О компании", link: "#about" },
+  { title: "Наши юристы", link: "#lawyers" },
+  { title: "Отзывы", link: "#reviews" },
+  { title: "Новости", link: "#news" },
+  { title: "Контакты", link: "#footer" },
 ];
 
 const Navigation = () => {

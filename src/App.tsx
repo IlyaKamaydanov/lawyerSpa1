@@ -1,5 +1,6 @@
 import s from "./App.module.scss";
 import { AboutCompany } from "./components/AboutCompany/Index";
+import { Footer } from "./components/Footer/Index";
 import { Header } from "./components/Header/Index";
 import { Lawyers } from "./components/Lawyers/Index";
 import { Reviews } from "./components/Reviews/Index";
@@ -19,6 +20,7 @@ function App() {
       <Lawyers />
       <Reviews />
       <Useful />
+      <Footer />
     </div>
   );
 }

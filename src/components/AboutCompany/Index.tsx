@@ -3,7 +3,7 @@ import s from "./AboutCompany.module.scss";
 
 const AboutCompany = () => {
   return (
-    <div className={s.container}>
+    <div className={s.container} id="about">
       <div className={s.info}>
         <h3 className={s.title}>
           юридическая компания <span className={s.blue}>правозащитник</span>

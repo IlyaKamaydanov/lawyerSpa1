@@ -84,7 +84,7 @@ const Useful = () => {
   };
 
   return (
-    <div className={s.container}>
+    <div className={s.container} id="news">
       <div className={s.header}>
         <h3 className={s.title}>Полезные материалы</h3>
         <p className={s.text}>

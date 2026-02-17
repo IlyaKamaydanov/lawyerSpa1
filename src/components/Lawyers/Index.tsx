@@ -42,7 +42,7 @@ const LAWYERS = [
 
 const Lawyers = () => {
   return (
-    <div className={s.background}>
+    <div className={s.background} id="lawyers">
       <div className={s.container}>
         <div className={s.head}>
           <h3 className={s.title}>Наши юристы</h3>

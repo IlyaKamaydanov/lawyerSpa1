@@ -142,3 +142,16 @@
   font-size: 14px;
   line-height: 150%;
 }
+
+.none {
+  display: none;
+}
+
+.show {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}

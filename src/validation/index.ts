@@ -31,4 +31,9 @@ const CallFormSchema = yup.object({
     .max(11, "Максимум 11 цифр")
     .typeError("Введите номер "),
 });
-export { ReviewFormSchema, CallFormSchema };
+
+const QuestionsSchema = yup.object({
+  mail: yup.string().required("Введите почту"),
+  question: yup.string().required("Напишите вопрос"),
+});
+export { ReviewFormSchema, CallFormSchema, QuestionsSchema };

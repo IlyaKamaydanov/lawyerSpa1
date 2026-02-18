@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  border: 5px solid #4f8ff0;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1920px;
+  height: 100vh;
+}
+
+.container {
+  font-family: var(--font);
+  padding: 80px 300px;
+  text-align: center;
+}
+
+.input,
+.textarea {
+  width: 250px;
+  font-size: 15px;
+  border: 2px solid #4f8ff0;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.label {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #4f8ff0;
+  margin: 10px auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}

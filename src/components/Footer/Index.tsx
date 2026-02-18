@@ -1,12 +1,15 @@
+import { createPortal } from "react-dom";
 import { Button } from "../Button/Index";
 import s from "./Footer.module.scss";
+import { ModalQuestion } from "../ModalQuestion/Index";
+import { useState } from "react";
 
 const CONNECT = [
   {
     img: "../../img/locationFooter.svg",
     alt: "Location",
     title: "Наш адрес",
-    text: "г. Одинцово, пр. Будапештсткая, 40",
+    text: "г. Одинцово, пр. Будапештсткий, 40",
     link: "https://yandex.ru/maps/?text=55.671925,37.281809",
     target: "_blank",
   },
@@ -50,6 +53,13 @@ interface LinksType {
 }
 
 const Footer = () => {
+  const [show, setShow] = useState(false);
+
+  const questionForm = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setShow(!show);
+    event.preventDefault();
+  };
+
   return (
     <div className={s.container} id="footer">
       <div className={s.head}>
@@ -103,9 +113,19 @@ const Footer = () => {
             разоблачены. Идейные соображения высшего порядка, а также
             перспективное планирование играет{" "}
           </p>
-          <Button variant="blue" children="Задать вопрос юристу" />
+          <Button
+            variant="blue"
+            children="Задать вопрос юристу"
+            click={questionForm}
+          />
         </div>
       </div>
+      {createPortal(
+        <div className={show ? s.show : s.none}>
+          <ModalQuestion showForm={questionForm} />
+        </div>,
+        document.body
+      )}
     </div>
   );
 };

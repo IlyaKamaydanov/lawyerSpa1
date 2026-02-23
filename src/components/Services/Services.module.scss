@@ -81,3 +81,46 @@
   font-weight: 800;
   font-size: 20px;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    padding: 2.5vw 10vw;
+    gap: 1.5vw;
+  }
+
+  .text {
+    width: auto;
+    font-size: 0.9em;
+  }
+
+  .title {
+    font-size: 1.1em;
+    width: auto;
+  }
+
+  .head {
+    gap: 2.5vw;
+  }
+
+  .services {
+    justify-content: space-between;
+  }
+
+  .service {
+    width: auto;
+    height: 17vw;
+    padding: 2.5vw 1.5vw;
+  }
+
+  .img {
+    width: 3vw;
+  }
+
+  .serviceTitle {
+    font-size: 1.1em;
+  }
+
+  .serviceText {
+    font-size: 0.7em;
+  }
+}

@@ -33,3 +33,27 @@
   gap: 24px;
   margin-top: 32px;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    padding: 2.5vw 10vw;
+    gap: 2vw;
+  }
+
+  .title {
+    font-size: 1.8em;
+    padding-bottom: 2vh;
+  }
+
+  .texts {
+    width: auto;
+  }
+
+  .IMG {
+    width: 70vh;
+  }
+
+  .text {
+    font-size: 0.7em;
+  }
+}

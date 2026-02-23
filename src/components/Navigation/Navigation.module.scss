@@ -21,3 +21,13 @@
   color: #4f8ff0;
   border-bottom: 1px solid #4f8ff0;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .links {
+    gap: 1.5vw;
+  }
+
+  .link {
+    font-size: 0.8em;
+  }
+}

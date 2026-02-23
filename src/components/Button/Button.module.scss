@@ -61,3 +61,15 @@
   background-color: white;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .noBack {
+    font-size: 0.7em;
+  }
+
+  .blue,
+  .gray {
+    font-size: 0.7em;
+    padding: 1vw 2vw;
+  }
+}

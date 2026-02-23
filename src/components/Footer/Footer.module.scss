@@ -155,3 +155,80 @@
   transform: translate(-50%, -50%);
   z-index: 1000;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    padding: 2.5vw 10vw;
+  }
+
+  .title {
+    font-size: 1.3em;
+  }
+
+  .span {
+    font-size: 0.75em;
+  }
+
+  .text {
+    font-size: 0.7em;
+  }
+
+  .head {
+    padding-bottom: 3vw;
+  }
+
+  .connect {
+    gap: 2vw;
+  }
+
+  .connection {
+    width: 60vw;
+  }
+
+  .icon {
+    width: 5vw;
+  }
+
+  .conTitle {
+    font-size: 0.7em;
+  }
+
+  .footLink {
+    font-size: 0.7em;
+  }
+
+  .linkLink {
+    font-size: 0.85em;
+  }
+
+  .links {
+    gap: 0.9vw;
+    padding: 0;
+    padding-top: 5vw;
+  }
+
+  .lawyer {
+    gap: 1.2vw;
+  }
+
+  .name {
+    font-size: 1em;
+  }
+
+  .specialty {
+    font-size: 0.9em;
+  }
+
+  .lawyerText {
+    font-size: 0.7em;
+    width: auto;
+  }
+
+  .foot {
+    gap: 5vw;
+  }
+
+  .iconLawyer {
+    width: 7.5vw;
+  }
+}

@@ -55,3 +55,32 @@
 .after:hover {
   animation: After 3s forwards;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .img {
+    width: 28vw;
+    height: 30vw;
+  }
+
+  .name {
+    font-size: 0.9em;
+  }
+
+  .activity {
+    font-size: 0.8em;
+  }
+
+  .after {
+    width: 28vw;
+    padding: 1.5vw 4vw;
+    gap: 2.5wv;
+  }
+
+  .text {
+    font-size: 0.65em;
+  }
+
+  .experience {
+    font-size: 1em;
+  }
+}

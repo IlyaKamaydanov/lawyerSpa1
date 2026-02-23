@@ -33,7 +33,7 @@ const AboutCompany = () => {
         </div>
       </div>
       <div className={s.img}>
-        <img src="../../img/aboutIMG.png" alt="aboutIMG" />
+        <img src="../../img/aboutIMG.png" alt="aboutIMG" className={s.IMG} />
       </div>
     </div>
   );

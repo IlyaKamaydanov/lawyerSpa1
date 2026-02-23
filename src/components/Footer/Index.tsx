@@ -81,7 +81,7 @@ const Footer = () => {
         <div className={s.connection}>
           {CONNECT.map((item: ConnectType, index) => (
             <div className={s.connect} key={index}>
-              <img src={item.img} alt={item.alt} />
+              <img src={item.img} alt={item.alt} className={s.icon} />
               <div className={s.texts}>
                 <h5 className={s.conTitle}>{item.title}</h5>
                 <a className={s.footLink} href={item.link} target={item.target}>
@@ -102,7 +102,11 @@ const Footer = () => {
         </ul>
         <div className={s.lawyer}>
           <div className={s.lawyerHead}>
-            <img src="../../img/footerPhoto.svg" alt="lawyer" />
+            <img
+              src="../../img/footerPhoto.svg"
+              alt="lawyer"
+              className={s.iconLawyer}
+            />
             <div className={s.headText}>
               <h5 className={s.name}>Миронов Александр</h5>
               <span className={s.specialty}>Ведущий юрист</span>

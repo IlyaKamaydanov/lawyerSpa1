@@ -39,3 +39,23 @@
   width: 1090px;
   margin: 0 auto;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    padding: 5vw 10vw;
+    gap: 2.5vw;
+  }
+
+  .head {
+    font-size: 1.7em;
+  }
+
+  .headUp {
+    font-size: 0.5em;
+  }
+
+  .text {
+    font-size: 0.8em;
+    width: auto;
+  }
+}

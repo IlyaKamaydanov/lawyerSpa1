@@ -40,3 +40,26 @@
   display: flex;
   gap: 24px;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    padding: 2.5vw 10vw;
+  }
+
+  .title {
+    font-size: 1.1em;
+    width: auto;
+    padding-bottom: 1.5vw;
+  }
+
+  .text {
+    width: auto;
+    font-size: 0.9em;
+  }
+
+  .lawyers {
+    flex-wrap: wrap;
+    margin: 0 14%;
+    gap: 5vw;
+  }
+}

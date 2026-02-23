@@ -39,3 +39,22 @@
   font-size: 20px;
   color: white;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .mini {
+    padding: 0 10vw;
+  }
+
+  .title {
+    margin: 1vw 0;
+    padding: 1vh;
+  }
+
+  .head {
+    font-size: 1.4em;
+  }
+
+  .text {
+    font-size: 0.9em;
+  }
+}

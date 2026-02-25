@@ -59,3 +59,22 @@
     width: auto;
   }
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10vw 3vw;
+  }
+
+  .head {
+    font-size: 1.5em;
+  }
+
+  .headUp {
+    font-size: 0.6em;
+  }
+
+  .text {
+    font-size: 0.8em;
+    width: auto;
+  }
+}

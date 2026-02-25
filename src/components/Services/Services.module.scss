@@ -124,3 +124,35 @@
     font-size: 0.7em;
   }
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10vw 3vw;
+  }
+
+  .title {
+    font-size: 1.3em;
+    width: auto;
+  }
+
+  .text {
+    width: auto;
+    font-size: 0.8em;
+  }
+
+  .service {
+    height: 40vh;
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 6vh;
+  }
+
+  .serviceTitle {
+    font-size: 1.1em;
+  }
+
+  .serviceText {
+    font-size: 0.8em;
+    width: auto;
+  }
+}

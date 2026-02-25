@@ -117,11 +117,13 @@ const Footer = () => {
             разоблачены. Идейные соображения высшего порядка, а также
             перспективное планирование играет{" "}
           </p>
-          <Button
-            variant="blue"
-            children="Задать вопрос юристу"
-            click={questionForm}
-          />
+          <div className={s.button}>
+            <Button
+              variant="blue"
+              children="Задать вопрос юристу"
+              click={questionForm}
+            />
+          </div>
         </div>
       </div>
       {createPortal(

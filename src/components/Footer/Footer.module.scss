@@ -232,3 +232,46 @@
     width: 7.5vw;
   }
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10vw 3vw;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 1.6em;
+  }
+
+  .head {
+    justify-content: center;
+    padding-bottom: 10vw;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .foot {
+    flex-direction: column;
+  }
+
+  .links {
+    text-align: center;
+    padding: 10vw 0;
+    margin: 0;
+  }
+
+  .lawyer {
+    padding: 0;
+  }
+
+  .lawyerText {
+    width: auto;
+    font-size: 0.8em;
+  }
+
+  .button {
+    margin: 0 auto;
+  }
+}

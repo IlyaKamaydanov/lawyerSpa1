@@ -28,3 +28,9 @@ h5 {
     max-width: 1024px;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+}

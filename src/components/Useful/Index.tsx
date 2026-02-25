@@ -116,11 +116,13 @@ const Useful = () => {
               </div>
             ))}
       </div>
-      {!show ? (
-        <Button variant="blue" children="Все новости" click={showNews} />
-      ) : (
-        <Button variant="blue" children="Скрыть новости" click={showNews} />
-      )}
+      <div className={s.buttons}>
+        {!show ? (
+          <Button variant="blue" children="Все новости" click={showNews} />
+        ) : (
+          <Button variant="blue" children="Скрыть новости" click={showNews} />
+        )}
+      </div>
     </div>
   );
 };

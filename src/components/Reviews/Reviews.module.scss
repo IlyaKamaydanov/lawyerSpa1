@@ -80,6 +80,7 @@
 
   .reviews {
     gap: 2.5vw;
+    justify-content: center;
   }
 
   .review {
@@ -96,5 +97,29 @@
 
   .text {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10vw 3vw;
+    text-align: center;
+  }
+
+  .title {
+    width: auto;
+    font-size: 1.3em;
+  }
+
+  .review {
+    width: 80vw;
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+
+  .buttons {
+    justify-content: center;
   }
 }

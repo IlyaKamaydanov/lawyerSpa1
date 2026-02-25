@@ -73,3 +73,11 @@
     padding: 1vw 2vw;
   }
 }
+
+@media (max-width: 375px) {
+  .blue,
+  .gray {
+    font-size: 0.7em;
+    padding: 1vw 2vw;
+  }
+}

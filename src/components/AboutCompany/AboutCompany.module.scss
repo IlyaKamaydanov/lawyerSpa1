@@ -57,3 +57,33 @@
     font-size: 0.7em;
   }
 }
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10vw 3vw;
+  }
+
+  .title {
+    font-size: 1.4em;
+    width: 98vw;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+
+  .texts {
+    width: auto;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 0.9em;
+  }
+
+  .IMG {
+    display: none;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}

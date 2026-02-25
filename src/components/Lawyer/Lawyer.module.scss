@@ -83,4 +83,15 @@
   .experience {
     font-size: 1em;
   }
+
+  .lawyer {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 375px) {
+  .after {
+    width: 84vw;
+    height: 88.1vh;
+  }
 }

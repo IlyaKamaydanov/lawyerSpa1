@@ -33,7 +33,18 @@ const CallFormSchema = yup.object({
 });
 
 const QuestionsSchema = yup.object({
-  mail: yup.string().required("Введите почту"),
-  question: yup.string().required("Напишите вопрос"),
+  mail: yup
+    .string()
+    .required("Введите почту")
+    .matches(
+      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+      "Неверный формат email"
+    )
+    .typeError("Укажите почтовый адрес"),
+  question: yup
+    .string()
+    .required("Напишите вопрос")
+    .min(10, "Минимум 10 символов")
+    .typeError("Напишите свой вопрос"),
 });
 export { ReviewFormSchema, CallFormSchema, QuestionsSchema };

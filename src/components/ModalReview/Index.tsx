@@ -95,7 +95,8 @@ const ModalReview = ({ show, rew, close, closeModal }: ModalType) => {
               <p className={s.error}>{errors.text?.message}</p>
             </div>
           </label>
-          <input type="submit" value={"Отправить"} className={s.button} />
+          {/* <input type="submit" value={"Отправить"} className={s.button} /> */}
+          <Button children="Отправить" variant="blue"></Button>
           <Button variant="gray" children="Закрыть" click={show} />
         </form>
       </div>

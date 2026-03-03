@@ -77,3 +77,36 @@
   font-size: 15px;
   color: red;
 }
+
+@media (max-width: 375px) {
+  .background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form {
+    width: 80vw;
+    padding: 1vw 2vw;
+  }
+
+  .label {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .input,
+  .textarea {
+    width: 31vw;
+    font-size: 0.8em;
+    margin-left: auto;
+  }
+
+  .err {
+    gap: 1vw;
+  }
+
+  .error {
+    font-size: 0.8em;
+    text-align: right;
+  }
+}

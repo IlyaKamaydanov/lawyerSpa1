@@ -31,7 +31,11 @@ const Navigation = () => {
             <ul className={s.mobMenu}>
               {LINKS.map((item, index) => (
                 <li key={index}>
-                  <a href={item.link} className={s.mobLink}>
+                  <a
+                    href={item.link}
+                    className={s.mobLink}
+                    onClick={() => setShow(!show)}
+                  >
                     {item.title}
                   </a>
                 </li>
@@ -39,7 +43,7 @@ const Navigation = () => {
             </ul>
             <Button
               children="Закрыть"
-              variant="noBack"
+              variant="blue"
               click={() => setShow(!show)}
             />
           </nav>

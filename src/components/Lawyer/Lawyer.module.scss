@@ -55,8 +55,8 @@
 
 @media (max-width: 1024px) and (min-width: 375px) {
   .img {
-    width: 38vw;
-    height: 41vw;
+    width: 44vw;
+    height: 47vw;
   }
 
   .name {
@@ -68,9 +68,9 @@
   }
 
   .after {
-    width: 40vw;
+    width: 50vw;
     padding: 1.5vw 4vw;
-    gap: 8vw;
+    justify-content: space-between;
   }
 
   .text {
@@ -82,13 +82,13 @@
   }
 
   .lawyer {
-    width: 40vw;
+    width: 50vw;
   }
 }
 
 @media (max-width: 375px) {
   .after {
     width: 84vw;
-    height: 88.1vh;
+    height: auto;
   }
 }

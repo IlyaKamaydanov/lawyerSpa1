@@ -3,7 +3,7 @@ import s from "./Title.module.scss";
 
 const Title = () => {
   return (
-    <div className={s.container}>
+    <div className={s.container} id="head">
       <div className={s.title}>
         <h1 className={s.head}>
           <span className={s.headUp}>Оказываем весь комплекс</span>

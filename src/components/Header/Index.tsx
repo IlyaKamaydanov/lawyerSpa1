@@ -4,7 +4,7 @@ import s from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <div className={s.container} id="head">
+    <div className={s.container}>
       <Connection />
       <div className={s.mini}>
         <a className={s.title} href="#head">

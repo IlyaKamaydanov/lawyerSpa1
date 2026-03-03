@@ -81,3 +81,30 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .form {
+    width: 40vw;
+    padding: 1vw 2vw;
+  }
+
+  .input {
+    font-size: 0.8em;
+    width: 20vw;
+  }
+
+  .label {
+    font-size: 0.9em;
+  }
+
+  .button {
+    font-size: 0.7em;
+    padding: 1vw 2vw;
+    width: auto;
+    height: auto;
+  }
+
+  .form {
+    gap: 1.5vw;
+  }
+}

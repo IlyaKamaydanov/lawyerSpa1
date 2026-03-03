@@ -1,0 +1,36 @@
+:root {
+  --font: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  body {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+}

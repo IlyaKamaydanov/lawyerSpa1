@@ -108,12 +108,13 @@
 
   .service {
     width: auto;
-    height: 17vw;
+    height: auto;
     padding: 2.5vw 1.5vw;
   }
 
   .img {
-    width: 3vw;
+    width: 4vw;
+    border: 1px solid #4f8ff0;
   }
 
   .serviceTitle {
@@ -141,8 +142,8 @@
   }
 
   .service {
-    height: 40vh;
     width: 90vw;
+    height: auto;
     margin: 0 auto;
     padding-top: 6vh;
   }
